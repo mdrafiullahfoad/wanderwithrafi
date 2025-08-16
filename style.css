@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #0066ff, #00ccff);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #0066ff;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0066ff;
+}
+
+/* Services */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Portfolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.portfolio-item {
+  background: #e6f0ff;
+  padding: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Contact */
+#contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #0066ff;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
